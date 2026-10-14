@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>POOJA.S | Data Analyst</title>
+<meta name="description" content="Portfolio of POOJA.S, final-year B.Tech AI and Data Science student and aspiring data analyst.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="#top" id="brand"></a>
+  <nav>
+    <a href="#about">About</a><a href="#projects">Projects</a><a href="#experience">Experience</a>
+    <a href="#skills">Skills</a><a href="#certificates">Certificates</a><a href="#contact">Contact</a>
+  </nav>
+</header>
+<main id="top">
+  <section class="hero">
+    <img id="photo" alt="" hidden>
+    <div>
+      <p class="role" id="role"></p>
+      <h1 id="heroName"></h1>
+      <p class="intro" id="intro"></p>
+      <div class="actions" id="heroLinks"></div>
+    </div>
+    <div class="bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+  </section>
+  <section id="about"><h2>About</h2><div id="aboutBody"></div></section>
+  <section id="projects"><h2>Projects</h2><div id="projectList"></div></section>
+  <section id="experience"><h2>Experience</h2><div id="expList"></div></section>
+  <section id="skills"><h2>Skills</h2><div id="skillList"></div></section>
+  <section id="certificates"><h2>Certificates</h2><div><div class="certs" id="certList"></div><p class="note" id="workshops"></p><p class="note" id="achievement"></p></div></section>
+  <section id="contact"><h2>Contact</h2><div><p>Open to entry-level Data Analyst and IT roles. The quickest way to reach me is email.</p><div class="actions" id="contactLinks"></div></div></section>
+</main>
+<footer id="footer"></footer>
+
+<div class="modal" id="modal" hidden role="dialog" aria-modal="true" aria-label="Certificate">
+  <div class="modal-box">
+    <button class="close" id="closeBtn" aria-label="Close">&times;</button>
+    <img id="modalImg" alt="">
+    <div class="modal-cap"><strong id="modalTitle"></strong><span id="modalMeta"></span><a id="modalVerify" target="_blank" rel="noopener" hidden>Verify certificate</a></div>
+  </div>
+</div>
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
